@@ -202,13 +202,15 @@ body{
 
 .label-text{
     margin-left: 20px;
+    
+    width: 300px;
 }
 
 .dd{
     position: relative;
     margin-top: 15px;
     padding: 0px;
-    margin-left: 360px;
+    
     border: transparent;
 }
 
@@ -271,13 +273,14 @@ body{
     margin-top: 10px;
     background-color: whitesmoke;
     border: 0.5px solid black;
+    position: relative;
 }
 
 .dd2{
     position: relative;
     margin-top: 15px;
     padding: 0px;
-    margin-left: 285px;
+    
     border: transparent;
 }
 
@@ -289,7 +292,7 @@ body{
     position: relative;
     margin-top: 15px;
     padding: 0px;
-    margin-left: 360px;
+    
     border: transparent;
 }
 
@@ -301,7 +304,7 @@ body{
     position: relative;
     margin-top: 15px;
     padding: 0px;
-    margin-left: 355px;
+    
     border: transparent;
 }
 
@@ -310,7 +313,8 @@ body{
 }
 
 li button{
-    right: 30px;
+    position: absolute;
+    left: 160px;
 }
 
 .bi-briefcase-fill{
