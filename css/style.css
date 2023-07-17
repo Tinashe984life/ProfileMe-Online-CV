@@ -309,6 +309,10 @@ body{
     cursor: pointer;
 }
 
+li button{
+    left: 20px;
+}
+
 .bi-briefcase-fill{
     position: relative;
     margin-top: 15px;
