@@ -16,7 +16,7 @@ body{
 .right{
     position: relative;
     width: 45vw;
-    margin-left: 3vw;   
+    margin-left: 2vw;   
 }
 
 .main-d-header-photos{
@@ -420,7 +420,7 @@ li button{
     }
 
     .label{
-        width: 95vw;
+        width: 94vw;
     }
 
     .bi-info-circle-fill{
