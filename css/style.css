@@ -1,28 +1,29 @@
 body{
-    margin-top: 20px;
+    margin: 0;
     background-color: rgba(0, 0, 0, 0.1);
 }
 
 .container{
     display: flex;
 }
+
 .left{
-    width: 600px;
-    height: 760px;
-    margin-left: 40px;
+    width: 45vw;
+    margin-left: 2vw;
+    margin-top: 2vw;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
 }
 .right{
     position: relative;
-    width: 610px;
-    margin-left: 60px;
+    width: 45vw;
+    margin-left: 3vw;   
 }
 
 .main-d-header-photos{
     position: relative;
     display: flex;
     overflow: hidden;
-    width: 600px;
+    width: 45vw;
 }
 
 .header-img-container{
@@ -42,48 +43,49 @@ body{
 }
 
 .header-img{
-    width: 640px;
+    width: 48vw;
     height: auto;
 }
 
 .main-d-header{
     display: flex;
     background-image: url('../images/pixels.png');
-    width: 600px;
+    width: 45vw;
 }
 
 .more-contacts{
     position: absolute;
     display: flex;
-    top: 270px;
-    right: 30px;
+    top: 20vw;
+    right: 2vw;
 }
 
 .more-contacts a{
     background-color: purple;
-    padding: 10px;
+    text-align: center;
     border-radius: 50%;
-    width: 35px;
-    margin: 5px;
+    width: 4vw;
+    height: 4vw;
+    margin: 0.5vw;
     color: whitesmoke;
 }
 
 .bi-chat-square{
-    margin-top: 5px;
-    margin-left: 2px;
+    width: 2.2vw;
+    padding-top: 1vw;
 }
 
 .bi-whatsapp{
-    margin-top: 2px;
-    margin-left: 2px;
+    width: 2.2vw;
+    padding-top: 1vw;
 }
 
 .profile-pic{
     position: relative;
-    width: 140px;
-    height: 140px;
+    width: 10.5vw;
+    height: 10.5vw;
     overflow: hidden;
-    top: -20px;
+    top: -2vw;
     border-radius: 5%;
 }
 
@@ -92,31 +94,31 @@ body{
     list-style: none;
     display: grid;
     grid-template-columns: auto auto;
-    row-gap: 10px;
-    column-gap: 10px;
-    padding-left: 10px;
-    width: 580px;
+    row-gap: 1vw;
+    column-gap: 1vw;
+    padding-left: 1vw;
+    width: 43vw;
 }
 
 .contacts-list li{
     display: flex;
     border: 1px solid rgba(0, 0, 0, 0.5);
-    padding: 10px;
+    padding: 1vw;
+    width: 18.8vw;
 }
 
-.contacts-list a{
+.contacts-list li div a{
+    display: flex;
     text-decoration: none;
     color: black;
+    width: 13vw;
+    font-size: 0.65em;
 }
 
 .cd{
     display: flex;
     flex-direction: column;
     margin: 10px;
-}
-
-.gh{
-    margin: 20px;
 }
 
 .bi-phone{
@@ -141,10 +143,10 @@ body{
 
 .headshot{
     position: relative;
-    width: 240px;
+    width: 18vw;
     height: auto;
-    left: -50px;
-    top: -50px;
+    left: -4vw;
+    top: -4vw;
 }
 
 .name-title{
@@ -153,7 +155,7 @@ body{
 }
 
 .info{
-    margin-top: 30px;
+    margin-top: 2vw;
     margin-left: 0px;
     padding-left: 0px;
 }
@@ -164,53 +166,51 @@ body{
 }
 
 .li-container{
-    width: 600px;
-    border: 1px solid black;
+    width: 45vw;
+    height: 3.5vw;
     background-color: black;
 }
 
 .li-content{
-    margin-left: 20px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-left: 2vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
     display: flex;
 }
 
 .li-content b{
-    margin-top: 10px;
-    margin-left: 20px;
+    margin-top: 1vw;
+    margin-left: 2vw;
     color: white;
 }
 
 .lic{
+    margin-top: 0.5vh;
     background-color: white;
-    width: 35px;
-    height: 35px;
+    width: 2.7vw;
+    height: 2.7vw;
     border-radius: 13%;
 }
 
-.label{
-    display: flex;
+.bi-linkedin{
+    width: 2.8vw;
+    height: 2.8vw;
 }
 
 .about-me{
-    width: 600px;
-    margin-top: 10px;
+    width: 45vw;
+    margin-top: 1vw;
     background-color: whitesmoke;
     border: 0.5px solid black;
 }
 
 .label-text{
-    margin-left: 20px;
-    
-    width: 300px;
+    margin-left: 2vw;
+    width: 25vw;
 }
 
 .dd{
     position: relative;
-    margin-top: 15px;
-    padding: 0px;
-    
     border: transparent;
 }
 
@@ -224,13 +224,13 @@ body{
 
 .bi-info-circle-fill{
     position: relative;
-    margin-top: 15px;
-    margin-left: 20px;
+    margin-top: 1.4vw;
+    margin-left: 1.5vw;
 }
 
 .about-me-content{
     position: absolute;
-    width: 600px;
+    width: 45vw;
     background-image: url('../images/pixels.png');
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
     visibility: hidden;
@@ -269,18 +269,17 @@ body{
 }
 
 .label{
-    width: 600px;
+    display: flex;
+    width: 45vw;
     margin-top: 10px;
     background-color: whitesmoke;
     border: 0.5px solid black;
     position: relative;
 }
 
+
 .dd2{
     position: relative;
-    margin-top: 15px;
-    padding: 0px;
-    
     border: transparent;
 }
 
@@ -290,9 +289,6 @@ body{
 
 .dd3{
     position: relative;
-    margin-top: 15px;
-    padding: 0px;
-    
     border: transparent;
 }
 
@@ -302,9 +298,6 @@ body{
 
 .dd4{
     position: relative;
-    margin-top: 15px;
-    padding: 0px;
-    
     border: transparent;
 }
 
@@ -313,29 +306,136 @@ body{
 }
 
 li button{
-    position: absolute;
-    left: 160px;
+    position: relative;
+    margin-left: 5vw;
+    margin-top: 1.5vh;
+    padding: 0px;
 }
 
 .bi-briefcase-fill{
     position: relative;
-    margin-top: 15px;
-    margin-left: 20px;
+    margin-top: 1.4vw;
+    margin-left: 1.5vw;
 }
 
 .bi-book-fill{
     position: relative;
-    margin-top: 15px;
-    margin-left: 20px;
+    margin-top: 1.4vw;
+    margin-left: 1.5vw;
 }
 
 .bi-easel2-fill{
     position: relative;
-    margin-top: 15px;
-    margin-left: 20px;
+    margin-top: 1.4vw;
+    margin-left: 1.5vw;
 }
 
 .ghl{
     text-decoration: none;
     color: white;
+}
+
+@media (max-width: 768px) {
+    .container{
+        display: inline-block;
+    }
+
+    .left{
+        width: 95vw;
+    }
+
+    .right{
+        width: 95vw;
+    }
+
+    .header-img{
+        width: 100vw;
+    }
+
+    .main-d-header-photos{
+        width: 95vw;
+    }
+    
+    .main-d-header{
+        width: 95vw;
+    }
+
+    .more-contacts{
+        top: 45vw;
+    }
+
+    .more-contacts a{
+        width: 7vw;
+        height: 7vw;
+    }
+
+    .bi-chat-square{
+        width: 4vw;
+        padding-top: 1.5vw;
+    }
+    
+    .bi-whatsapp{
+        width: 4vw;
+        padding-top: 1.5vw;
+    }
+
+    .profile-pic{
+        width: 21vw;
+        height: 21vw;
+    }
+
+    .headshot{
+        width: 31vw;
+    }
+
+    .contacts-list{
+        width: 95vw;
+    }
+
+    .contacts-list li{
+        width: 43vw;
+    }
+
+    .li-container{
+        width: 95vw;
+        height: 7vw;
+    }
+
+    .lic{
+        width: 4vw;
+        height: 4vw;
+    }
+
+    .bi-linkedin{
+        width: 4vw;
+        height: 4vw;
+    }
+
+    .label-text{
+        width: 60vw;
+    }
+
+    .about-me-content{
+        width: 95vw;
+    }
+
+    .label{
+        width: 95vw;
+    }
+
+    .bi-info-circle-fill{
+        margin-top: 2.5vh;
+    }
+
+    .bi-briefcase-fill{
+        margin-top: 2.5vh;
+    }
+
+    .bi-book-fill{
+        margin-top: 2.5vh;
+    }
+
+    .bi-easel2-fill{
+        margin-top: 4vw;
+    }
 }
